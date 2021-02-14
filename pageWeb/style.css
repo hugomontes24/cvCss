@@ -1,0 +1,159 @@
+/* Feuille de style */
+
+@font-face {
+    font-family: 'carbontyperegular';
+    src: url('carbontype-webfont.eot');
+    src: url('carbontype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('carbontype-webfont.woff2') format('woff2'),
+         url('carbontype-webfont.woff') format('woff'),
+         url('carbontype-webfont.ttf') format('truetype'),
+         url('carbontype-webfont.svg#carbontyperegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    /*background: url('textPapier.png');*/
+    font-family: 'carbontyperegular', monospace, sans-serif;
+    color: #181818;
+    width: 1300px;
+}
+
+
+ #topsection {
+   display:flex;
+  justify-content: space-between;
+  align-items: baseline;/*alignement menu a la base*/
+
+}
+
+
+
+header {
+	/*display: inline-block;*/
+	/*border : 1px solid black;*/
+}
+#topsection img {
+	padding-left: 20px ;
+}
+
+div{
+  /*border: 1px solid black;*/
+
+}
+#test{ /*ca a permis de trouver des solutions*/
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+article{ /*ca a permis de trouver des solutions*/
+background-color: red;
+width: 50px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-top: 1px solid black;
+
+
+ }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+
+   font-family: 'carbontyperegular', Arial ;
+    color: #383734;
+    font-size: 18px;
+  /*border : 1px solid red;*/
+}
+
+ul {
+  /*padding : 0 ;*/
+  display: flex;
+  /*margin : 0;*/
+  list-style-type: none;
+}
+
+li {
+	margin-left : 0 px;
+	/*float: left;*/
+}
+
+ul li a {
+ /*display:block;*/
+ /*float:right;*/   
+ width:80px;
+ background-color:#FFFFFF;
+ color:#181818;  
+ text-align:center;
+ text-decoration: none;
+ padding:5px;
+ /*border:1px solid;/*pour avoir un effet "outset" avec IE :
+ border-color:#000000;*/
+
+}
+
+ul li a:hover{
+  color:#FFFFFF;
+  background-color:#181818; 
+  
+}
+
+#lS img {
+  /*box-shadow: 6px 6px 6px #aaa;*/
+  box-shadow: 0 0 65px #cdbe9f inset, 0 0 40px #beae8c inset, 0 0 25px #816f47;
+  
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+footer div {
+ /* border: 1px solid red;*/
+
+
+  margin-bottom: 25px;
+}
+
+div #reseaux{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+div #telef p{
+  text-align: right;
+}
+
+#nom{
+   font-size: 21px;
+}
+
+div #reseaux img{
+  margin-left: 15px;
+}
+
+.paintings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paintings img {
+  /*box-shadow: 0 88px 149px 49px #FFF, 0 12px 9px -5px rgba(0, 0, 0, 1);*/
+
+}
+
+.dessins {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*p {
+  width: 80%;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+}*/
